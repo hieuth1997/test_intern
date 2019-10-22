@@ -1,0 +1,36 @@
+
+.card-col{
+    
+        .card-search{
+            position: relative;
+            margin: 0.5rem;
+            background: #fff;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            max-height: 160px;
+            overflow: auto;
+            z-index: 4;
+            & h3{
+                margin-top: 10px;
+                margin-bottom: 0;
+                font-size: 1.2rem;
+                color: #444;
+            }
+            & .link-search{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                &:hover{
+                    transition: all 300ms;
+                    background-color: rgba(6, 6, 7, 0.356);
+                }
+            }
+        }
+        .card-name{
+            font-size: 1rem;
+        }
+}

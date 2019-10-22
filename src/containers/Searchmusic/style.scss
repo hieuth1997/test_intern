@@ -1,0 +1,28 @@
+.page-search{
+    background: rgb(233,235,238);
+    padding: 3rem 0;
+    h3{
+            font-size: 16px;
+            color: #6c757d;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 2rem;
+            text-transform: none;
+            font-family: 'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+            }
+    & .custom-search{
+        background-image: url(./../../assets/img/bg-search.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2rem 0;
+        height: 70vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+}
+
+
+  
+
+  

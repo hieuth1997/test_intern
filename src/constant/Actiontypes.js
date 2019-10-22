@@ -1,0 +1,2 @@
+export const FETCH_TOP_MUSIC = 'FETCH_TOP_MUSIC';
+export const SEARCH_TOP_MUSIC = 'SEARCH_TOP_MUSIC';

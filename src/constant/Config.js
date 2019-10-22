@@ -1,0 +1,1 @@
+export const API_URL = 'https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?media=music&term=';

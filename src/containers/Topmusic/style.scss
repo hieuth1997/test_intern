@@ -1,0 +1,23 @@
+#section-1{
+    .top-music{
+        position: relative;
+        z-index: 3;
+        .bg-top-music{
+            background-image: url(./../../assets/img/bg-top.png);
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+    
+        }
+    }
+     
+    .music-content{
+        padding: 2rem;
+        .title{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

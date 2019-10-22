@@ -1,0 +1,26 @@
+.custom-nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    .custom-logo{
+       width: 80px;
+       height: 80px;
+    }
+    .text-color{
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+    
+}
+.nav-scored{
+    background-color: rgb(32,35,42);
+    -webkit-transition: width 2s; /* Safari prior 6.1 */
+    transition: width 2s;
+    .custom-logo{
+        width: 40px;
+        height: 40px;
+     }
+
+}

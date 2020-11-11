@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'cokkerrealestate'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_00947f6ee31140549da64f750bf2727d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b3f3262e1c40481097533c497fb94014 }}
         package: .

@@ -68,6 +68,13 @@ stages:
           steps:            
           - task: AzureRmWebAppDeployment@4
             displayName: 'Azure App Service Deploy: cokkerrealestate'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure for Students (03432c8a-f099-438a-a126-883048de35fb)'
+    appType: 'webApp'
+    WebAppName: 'cokkerrealestate'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
